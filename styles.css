@@ -16,11 +16,19 @@ body {
     /* Centers content horizontally */
     align-items: center;
     /* Centers content vertically */
-    height: 100vh;
+    height: 1000vh;
     /* Makes the body take the full height of the viewport */
 }
 
 h1 {
+    font-size: 2em;
+    /* Sets the size of the header text */
+    text-align: center;
+    /* Centers the header text */
+}
+
+h2
+{
     font-size: 2em;
     /* Sets the size of the header text */
     text-align: center;
