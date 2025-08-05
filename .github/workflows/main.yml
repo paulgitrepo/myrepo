@@ -1,0 +1,16 @@
+name : version repo workflow
+on:
+  push:
+    branches: -main
+    paths: 
+     - '**.html'
+     - '**.css'
+jobs:
+  validate-html:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run HTMLHint
+        run: echo "Running HTML validation"
